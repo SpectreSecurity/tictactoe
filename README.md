@@ -1,5 +1,5 @@
-# Tic-Tac-Toe
-A web-based multiplayer tic-tac-toe game
+# Web-based Multiplayer Tic-Tac-Toe
+A web-based multiplayer tic-tac-toe game using php,html,js,css
 
 Some features:
 -Search for available users and invite
