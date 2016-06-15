@@ -1,4 +1,4 @@
-# tictactoe
+# Tic-Tac-Toe
 A web-based multiplayer tic-tac-toe game
 
 Some features:
