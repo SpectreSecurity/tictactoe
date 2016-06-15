@@ -1,0 +1,216 @@
+BODY
+{
+	background-color: #CFCCC5;
+}
+#header
+{
+	background-color: #3E3D3B;
+	text-align: center;
+	height: 82px;
+	padding-top: 3px;
+	margin-bottom: 40px;
+	margin: 37px auto 20px;
+	width: 1000px;
+	color: #D5D2C9;
+}
+
+#container
+{
+	background-image: url('../img/bg.jpg');
+	background-position: -235px -6px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 800px;
+}
+#menu
+{
+	float: left;
+	background-color: #3E3D3B;
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	height: 330px;
+	margin-top: 104px;
+	color: #D4D1CA;
+	-moz-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+}
+#content
+{
+	background-color: transparent;
+	display: inline-block;
+	width: 700px;
+	margin: 0 auto;
+	height: 674px;
+	text-align: center;
+}
+#footer
+{
+	clear: both;
+	background-color: #3E3D3B;
+	text-align: center;
+	margin: 7px auto 20px;
+	width: 1000px;
+	color: #D5D2C9;
+}
+/*#######INDEX RULES#######*/
+#nickname_input
+{
+	margin: 104px 0px 0px 162px;
+	background-color: #D6D3CC;
+	-moz-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	width: 400px;
+	height: 74px;
+	padding-top: 43px;
+}
+/*#######SEARCH_FOR_GAME RULES#######*/
+#txtHint
+{
+	background-color: transparent;
+	margin: 58px auto 0;
+	-moz-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	width: 400px;
+	overflow: auto;
+	height: 375px;
+	padding: 30px 15px;
+}
+
+#messages, #messages2, #messages3, #messages4, #clockmain, #clockinvite, #clocksession, #clockgame, #sessionblock
+{
+	display: none;
+}
+.search_table
+{
+	display: inline;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 8px;
+}
+.search_table TABLE
+{
+	width: 100%;
+	margin: 0px;
+	border-radius: 10px;
+	border: none;
+	padding: 0px;
+}
+.search_table TR:last-child TD:last-child, .search_table TABLE TR:first-child TD:first-child, .search_table TABLE TR:first-child TD:last-child, .search_table TR:last-child TD:first-child
+{
+	border: none;
+}
+.search_table TR:nth-child(odd)
+{
+	background-color: #FFAA56;
+	border: none;
+}
+.search_table TR:nth-child(even)
+{
+	background-color: #FFFFFF;
+	border: none;
+}
+.search_table TD
+{
+	vertical-align: middle;
+	border: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 13px;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	color: #000000;
+}
+.search_table TR:last-child TD:last-child
+{
+	border-width: 0px;
+	border: none;
+}
+.search_table TR:first-child TD
+{
+	background: -o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);
+	border: none;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
+	background: -moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");
+	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+	background-color: #FF7F00;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.search_table TR:first-child:hover TD
+{
+	background: -o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);
+	border: none;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
+	background: -moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");
+	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+	background-color: #FF7F00;
+}
+#home-page, #user-play, #user-avail, #user-history
+{
+	width: 194px;
+	height: 51px;
+	margin-bottom: -6px;
+}
+#home-page
+{
+	margin-top: 13px;
+	margin-bottom: 12px;
+}
+
+/*#######TICTACTOE RULES#######*/
+#txtHint2
+{
+	background-color: transparent;
+	margin: 58px auto 0;
+	-moz-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 3px 3px 7px rgba(50, 50, 50, 0.75);
+	width: 400px;
+	height: 375px;
+	padding: 30px 15px;
+}
+
+#winner
+{
+	background-color: #D5D2C9 !important;
+	border: 1px solid #6E6C68 !important;
+	padding: 19px 3px 15px !important;
+	height: 28px !important;
+	margin: 75px 0 0 -15px !important;
+	width: 423px !important;
+	color: #403F3D !important;
+	font-size: 15.4pt !important;
+}
+
+.tictactoe TABLE
+{
+	width: 71% !important;
+	display: inline !important;
+	height: 71% !important;
+	margin: 0px !important;
+	border-radius: 10px !important;
+	border: none !important;
+	padding: 0px !important;
+	border-radius: 8px !important;
+	background-color: #93928E !important;
+	box-shadow: 10px 10px 5px #888888 !important;
+}
+.tictactoe TD
+{
+	border: none !important;
+	border-radius: 8px !important;
+	background-color: #51504E !important;
+}
+
